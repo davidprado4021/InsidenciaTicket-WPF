@@ -12,10 +12,7 @@ namespace Proyecto01_InsidenciaTicket.Conexion.DataBase
     internal class SqlConn
     {
         public readonly string sqlstring = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
-        public SqlConn()
-        {
-            
-        }
+        public SqlConn() { }
         public ObservableCollection<Users> ViewUserDB()
         {
             ObservableCollection<Users> usertable = new ObservableCollection<Users>();
@@ -99,7 +96,6 @@ namespace Proyecto01_InsidenciaTicket.Conexion.DataBase
                 }
             }
         }
-
         public void UpdateUserDB(Users user)
         {
             string query = "Update Users Set UserName=@username,Passwords=@password WHERE Id = @id";
@@ -125,5 +121,35 @@ namespace Proyecto01_InsidenciaTicket.Conexion.DataBase
                 }
             }
         }
+        public bool ValidateUser(string username, string password)
+        {
+            bool isValidUser = false;
+            string query = "SELECT COUNT(*) FROM Users WHERE UserName = @username AND Passwords = @password";
+
+            using (SqlConnection connection = new SqlConnection(sqlstring))
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@username", username);
+                command.Parameters.AddWithValue("@password", password);
+
+                try
+                {
+                    connection.Open();
+                    int count = (int)command.ExecuteScalar();
+                    isValidUser = count > 0;
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show($"SQL Error: {ex.Message}", "Database Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+
+            return isValidUser;
+        }
+
     }
 }

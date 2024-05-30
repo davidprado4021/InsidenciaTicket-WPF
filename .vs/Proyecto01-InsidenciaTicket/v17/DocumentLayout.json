@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|c:\\users\\david\\source\\repos\\proyecto01-insidenciaticket\\proyecto01-insidenciaticket\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|c:\\users\\david\\source\\repos\\proyecto01-insidenciaticket\\proyecto01-insidenciaticket\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|c:\\users\\david\\source\\repos\\proyecto01-insidenciaticket\\proyecto01-insidenciaticket\\conexion\\database\\sqlconn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\conexion\\database\\sqlconn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|c:\\users\\david\\source\\repos\\proyecto01-insidenciaticket\\proyecto01-insidenciaticket\\view\\logininpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\view\\logininpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Proyecto01-InsidenciaTicket\\Models\\Users.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\Models\\Users.cs",
               "RelativeToolTip": "Proyecto01-InsidenciaTicket\\Models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:20:39.592Z",
+              "WhenOpened": "2024-05-30T22:21:01.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "LoginInPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml.cs",
+              "RelativeToolTip": "Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T21:44:29.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SqlConn.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\Conexion\\DataBase\\SqlConn.cs",
               "RelativeDocumentMoniker": "Proyecto01-InsidenciaTicket\\Conexion\\DataBase\\SqlConn.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\Conexion\\DataBase\\SqlConn.cs",
               "RelativeToolTip": "Proyecto01-InsidenciaTicket\\Conexion\\DataBase\\SqlConn.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwHsAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T18:52:21.107Z",
+              "WhenOpened": "2024-05-30T21:34:00.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\ViewModel\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "Proyecto01-InsidenciaTicket\\ViewModel\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\ViewModel\\UserViewModel.cs",
+              "RelativeToolTip": "Proyecto01-InsidenciaTicket\\ViewModel\\UserViewModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwGcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:52:38.383Z",
               "EditorCaption": ""
             }
           ]

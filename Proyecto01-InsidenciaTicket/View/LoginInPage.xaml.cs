@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto01_InsidenciaTicket.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +26,7 @@ namespace Proyecto01_InsidenciaTicket.View
         public LoginInPage()
         {
             InitializeComponent();
+            DataContext = new UserViewModel();
         }
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
@@ -40,12 +42,6 @@ namespace Proyecto01_InsidenciaTicket.View
             var button = (Button)sender;
             var closeIcon = new BitmapImage(new Uri("pack://application:,,,/Proyecto01-InsidenciaTicket;component/Resourses/Icon/CloseIcon.jpg"));
             button.Tag = closeIcon;
-        }
-        private void IconBSett_Loaded(object sender, RoutedEventArgs e)
-        {
-            var button = (Button)sender;
-            var settIcon = new BitmapImage(new Uri("pack://application:,,,/Proyecto01-InsidenciaTicket;component/Resourses/Icon/AjustIcon.jpg"));
-            button.Tag = settIcon;
         }
         private void IconBMin_Loaded(object sender, RoutedEventArgs e)
         {
