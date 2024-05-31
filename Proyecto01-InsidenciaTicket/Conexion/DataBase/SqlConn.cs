@@ -31,7 +31,7 @@ namespace Proyecto01_InsidenciaTicket.Conexion.DataBase
                         {
                             _id = (int)reader["Id"],
                             _username = (string)reader["UserName"],
-                            _passworsd = (string)reader["Passwords"],
+                            _password = (string)reader["Passwords"],
                         });
                     }
                     sqlConn.Close();
@@ -57,7 +57,7 @@ namespace Proyecto01_InsidenciaTicket.Conexion.DataBase
                     SqlCommand acccionConn = new SqlCommand(query, sqlConn);
                     acccionConn.Parameters.AddWithValue("@id", user._id);
                     acccionConn.Parameters.AddWithValue("@username", user._username);
-                    acccionConn.Parameters.AddWithValue("@password", user._passworsd);
+                    acccionConn.Parameters.AddWithValue("@password", user._password);
                 try
                 {
                     sqlConn.Open();
@@ -105,7 +105,7 @@ namespace Proyecto01_InsidenciaTicket.Conexion.DataBase
             {
                     SqlCommand acccionConn = new SqlCommand(query, sqlConn);
                     acccionConn.Parameters.AddWithValue("@username", user._username);
-                    acccionConn.Parameters.AddWithValue("@password", user._passworsd);
+                    acccionConn.Parameters.AddWithValue("@password", user._password);
                 try
                 {
                     sqlConn.Open();

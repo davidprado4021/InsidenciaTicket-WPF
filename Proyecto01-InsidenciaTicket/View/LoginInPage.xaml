@@ -4,13 +4,18 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto01_InsidenciaTicket.View"
+      xmlns:helpers="clr-namespace:Proyecto01_InsidenciaTicket.Utilities"
+      xmlns:viewmodel="clr-namespace:Proyecto01_InsidenciaTicket.ViewModel"
       mc:Ignorable="d" 
       d:DesignHeight="680" d:DesignWidth="680"
       Title="LoginInPage"
       MouseDown="Page_MouseDown"
       Background="Transparent"
       Loaded="Page_Loaded">
-    
+    <Page.DataContext>
+        <viewmodel:UserViewModel />
+    </Page.DataContext>
+
     <Border CornerRadius="10"
             BorderThickness="5"
             Style="{StaticResource EnhancedBorderBackgroundStyle}">
@@ -57,9 +62,11 @@
                             Foreground="White"/>
                     </Label>
                     <Label FontSize="15"  Foreground="White" Content="UserName"/>
-                    <TextBox/>
+                    <TextBox Text="{Binding User._username, UpdateSourceTrigger=PropertyChanged}"/>
                     <Label FontSize="15"  Foreground="White" Content="Password"/>
-                    <PasswordBox/>
+                    <PasswordBox helpers:PasswordHelper.Attach="True"
+                                 helpers:PasswordHelper.Password="{Binding User._password, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Button Content="Login" Command="{Binding AuthenticateCommand}" Width="100" Margin="10"/>
                 </StackPanel>
 
             </Grid>

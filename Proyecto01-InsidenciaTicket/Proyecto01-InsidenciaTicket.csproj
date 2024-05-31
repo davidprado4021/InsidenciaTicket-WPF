@@ -44,6 +44,7 @@
     <Compile Include="Commands\RelayCommand.cs" />
     <Compile Include="Conexion\DataBase\SqlConn.cs" />
     <Compile Include="Models\Users.cs" />
+    <Compile Include="Utilities\PasswordHelper.cs" />
     <Compile Include="ViewModel\UserViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="View\LoginInPage.xaml.cs">

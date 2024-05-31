@@ -26,7 +26,6 @@ namespace Proyecto01_InsidenciaTicket.View
         public LoginInPage()
         {
             InitializeComponent();
-            DataContext = new UserViewModel();
         }
 
         private void Page_Loaded(object sender, RoutedEventArgs e)

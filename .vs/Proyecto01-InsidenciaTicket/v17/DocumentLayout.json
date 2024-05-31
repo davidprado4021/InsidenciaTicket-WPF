@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|c:\\users\\david\\source\\repos\\proyecto01-insidenciaticket\\proyecto01-insidenciaticket\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\proyecto01-insidenciaticket\\view\\logininpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\view\\logininpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|c:\\users\\david\\source\\repos\\proyecto01-insidenciaticket\\proyecto01-insidenciaticket\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|c:\\users\\david\\source\\repos\\proyecto01-insidenciaticket\\proyecto01-insidenciaticket\\conexion\\database\\sqlconn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\conexion\\database\\sqlconn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\proyecto01-insidenciaticket\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|c:\\users\\david\\source\\repos\\proyecto01-insidenciaticket\\proyecto01-insidenciaticket\\view\\logininpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\proyecto01-insidenciaticket\\view\\logininpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{683A83C7-F660-4443-94B2-9BDA14B7839A}|Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket.csproj|solutionrelative:proyecto01-insidenciaticket\\view\\logininpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,9 +44,21 @@
               "RelativeDocumentMoniker": "Proyecto01-InsidenciaTicket\\Models\\Users.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\Models\\Users.cs",
               "RelativeToolTip": "Proyecto01-InsidenciaTicket\\Models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T22:21:01.419Z",
+              "WhenOpened": "2024-05-31T17:17:07.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginInPage.xaml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml",
+              "RelativeDocumentMoniker": "Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml",
+              "RelativeToolTip": "Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T15:16:36.76Z",
               "EditorCaption": ""
             },
             {
@@ -57,7 +69,7 @@
               "RelativeDocumentMoniker": "Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml.cs",
               "RelativeToolTip": "Proyecto01-InsidenciaTicket\\View\\LoginInPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAPAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T21:44:29.119Z",
               "EditorCaption": ""
@@ -65,25 +77,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SqlConn.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\Conexion\\DataBase\\SqlConn.cs",
-              "RelativeDocumentMoniker": "Proyecto01-InsidenciaTicket\\Conexion\\DataBase\\SqlConn.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\Conexion\\DataBase\\SqlConn.cs",
-              "RelativeToolTip": "Proyecto01-InsidenciaTicket\\Conexion\\DataBase\\SqlConn.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwHsAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T21:34:00.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "UserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\ViewModel\\UserViewModel.cs",
               "RelativeDocumentMoniker": "Proyecto01-InsidenciaTicket\\ViewModel\\UserViewModel.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Proyecto01-InsidenciaTicket\\Proyecto01-InsidenciaTicket\\ViewModel\\UserViewModel.cs",
               "RelativeToolTip": "Proyecto01-InsidenciaTicket\\ViewModel\\UserViewModel.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwGcAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T19:52:38.383Z",
               "EditorCaption": ""

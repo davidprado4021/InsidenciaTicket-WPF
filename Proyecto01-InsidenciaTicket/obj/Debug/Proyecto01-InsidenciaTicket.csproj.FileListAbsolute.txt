@@ -22,3 +22,4 @@ C:\Users\david\source\repos\Proyecto01-InsidenciaTicket\Proyecto01-InsidenciaTic
 C:\Users\david\source\repos\Proyecto01-InsidenciaTicket\Proyecto01-InsidenciaTicket\bin\Debug\System.Configuration.ConfigurationManager.xml
 C:\Users\david\source\repos\Proyecto01-InsidenciaTicket\Proyecto01-InsidenciaTicket\bin\Debug\System.Data.SqlClient.xml
 C:\Users\david\source\repos\Proyecto01-InsidenciaTicket\Proyecto01-InsidenciaTicket\obj\Debug\Proyecto.7C26F076.Up2Date
+C:\Users\david\source\repos\Proyecto01-InsidenciaTicket\Proyecto01-InsidenciaTicket\obj\Debug\GeneratedInternalTypeHelper.g.cs
